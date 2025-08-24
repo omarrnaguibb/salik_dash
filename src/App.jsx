@@ -3,8 +3,8 @@ import Main from "./Main";
 import { io } from "socket.io-client";
 import Login from "./Login";
 
-export const serverRoute = "http://localhost:8080";
-// export const serverRoute = "https://da-s.onrender.com";
+// export const serverRoute = "http://localhost:8080";
+export const serverRoute = "https://salik-server.onrender.com";
 export const token = localStorage.getItem("token");
 export const socket = io(serverRoute);
 function App() {
