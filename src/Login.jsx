@@ -25,8 +25,8 @@ export default function Login() {
 
   return (
     <div className="w-full flex items-center justify-center md:justify-start flex-col gap-y-5 py-5 h-screen">
-      <img src="/icon.png" />
-      <h3 className="mb-4 font-bold text-xl text-center">Abhsr Login</h3>
+      <img src="/logo.png" />
+      <h3 className="mb-4 font-bold text-xl text-center">Salik Dashboard</h3>
       <form onSubmit={handleSubmit} className="md:w-1/3 w-10/12">
         {errorMsg && (
           <div className="w-full text-center text-red-500" role="alert">
@@ -53,7 +53,7 @@ export default function Login() {
             required
           />
         </div>
-        <button type="submit" className="bg-green-700 text-white px-5 py-2 rounded-md ">
+        <button type="submit" className="bg-blue-700 text-white px-5 py-2 rounded-md ">
           Sign In
         </button>
       </form>
